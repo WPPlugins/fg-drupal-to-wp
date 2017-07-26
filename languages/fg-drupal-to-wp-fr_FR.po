@@ -1,0 +1,1485 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FG Drupal to WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-23 08:43+0200\n"
+"PO-Revision-Date: 2017-06-23 08:44+0200\n"
+"Last-Translator: F. GILLES\n"
+"Language-Team: F. GILLES\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-fg-drupal-to-wp-admin.php:113
+msgid "All new imported data will be deleted from WordPress."
+msgstr "Toutes les nouvelles données importées seront supprimées de WordPress."
+
+#: admin/class-fg-drupal-to-wp-admin.php:114
+msgid "All content will be deleted from WordPress."
+msgstr "Toutes les données vont être supprimées de WordPress."
+
+#: admin/class-fg-drupal-to-wp-admin.php:115
+msgid "Please select a remove option."
+msgstr "Veuillez sélectionner une option de suppression."
+
+#: admin/class-fg-drupal-to-wp-admin.php:116
+msgid "IMPORT COMPLETED"
+msgstr "IMPORT TERMINÉ"
+
+#: admin/class-fg-drupal-to-wp-admin.php:117
+msgid "Content removed from WordPress"
+msgstr "Contenu supprimé de WordPress"
+
+#: admin/class-fg-drupal-to-wp-admin.php:118
+#: admin/class-fg-drupal-to-wp-admin.php:306
+msgid "Settings saved"
+msgstr "Paramètres enregistrés"
+
+#: admin/class-fg-drupal-to-wp-admin.php:119
+msgid "Importing…"
+msgstr "En cours d'import…"
+
+#: admin/class-fg-drupal-to-wp-admin.php:120
+msgid "IMPORT STOPPED BY USER"
+msgstr "IMPORT ARRÊTÉ PAR L'UTILISATEUR"
+
+#: admin/class-fg-drupal-to-wp-admin.php:121
+msgid "Internal links modified"
+msgstr "Liens internes modifiés"
+
+#: admin/class-fg-drupal-to-wp-admin.php:134
+msgid "Drupal"
+msgstr "Drupal"
+
+#: admin/class-fg-drupal-to-wp-admin.php:134
+msgid "Import a Drupal database into WordPress."
+msgstr "Importer une base de données Drupal vers WordPress."
+
+#: admin/class-fg-drupal-to-wp-admin.php:278
+msgid "The wp-content directory must be writable."
+msgstr "Le répertoire wp-content doit avoir les permissions en écriture."
+
+#: admin/class-fg-drupal-to-wp-admin.php:283
+#, php-format
+msgid "WordPress 4.4+ is required. Please <a href=\"%s\">update WordPress</a>."
+msgstr ""
+"WordPress 4.4+ est requis. Veuillez <a href=\"%s\">mettre à jour WordPress</"
+"a>."
+
+#: admin/class-fg-drupal-to-wp-admin.php:293
+#: admin/class-fg-drupal-to-wp-admin.php:333
+msgid "WordPress content removed"
+msgstr "Contenu supprimé de WordPress"
+
+#: admin/class-fg-drupal-to-wp-admin.php:295
+#: admin/class-fg-drupal-to-wp-admin.php:335
+msgid "Couldn't remove content"
+msgstr "Impossible de supprimer le contenu"
+
+#: admin/class-fg-drupal-to-wp-admin.php:316
+msgid "Connection successful"
+msgstr "Connexion réussie"
+
+#: admin/class-fg-drupal-to-wp-admin.php:318
+msgid "Connection failed"
+msgstr "Connexion échouée"
+
+#: admin/class-fg-drupal-to-wp-admin.php:318
+msgid "See the errors in the log below"
+msgstr "Voir les erreurs dans l'historique ci-dessous"
+
+#: admin/class-fg-drupal-to-wp-admin.php:355
+#, php-format
+msgid "%d internal link modified"
+msgid_plural "%d internal links modified"
+msgstr[0] "%d lien interne modifié"
+msgstr[1] "%d liens internes modifiés"
+
+#: admin/class-fg-drupal-to-wp-admin.php:373
+msgid "Import Drupal"
+msgstr "Import Drupal"
+
+#: admin/class-fg-drupal-to-wp-admin.php:374
+msgid ""
+"This plugin will import articles, stories, pages, images, categories and "
+"tags from a Drupal database into WordPress.<br />Compatible with Drupal "
+"versions 6, 7 and 8."
+msgstr ""
+"Ce plugin va importer les articles, les pages, les images, les catégories et "
+"les tags d’une base Drupal vers WordPress.<br>Compatible avec les versions "
+"Drupal 6, 7 et 8."
+
+#: admin/class-fg-drupal-to-wp-admin.php:375
+#, php-format
+msgid ""
+"For any issue, please read the <a href=\"%s\" target=\"_blank\">FAQ</a> "
+"first."
+msgstr ""
+"Pour toute question, veuillez d'abord lire la <a href=\"%s\" target=\"_blank"
+"\">FAQ</a>."
+
+#: admin/class-fg-drupal-to-wp-admin.php:405
+#: admin/class-fg-drupal-to-wp-admin.php:782
+#, php-format
+msgid "%d category"
+msgid_plural "%d categories"
+msgstr[0] "%d catégorie"
+msgstr[1] "%d catégories"
+
+#: admin/class-fg-drupal-to-wp-admin.php:406
+#: admin/class-fg-drupal-to-wp-admin.php:786
+#, php-format
+msgid "%d tag"
+msgid_plural "%d tags"
+msgstr[0] "%d mot-clef"
+msgstr[1] "%d mots-clefs"
+
+#: admin/class-fg-drupal-to-wp-admin.php:407
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d article"
+msgstr[1] "%d articles"
+
+#: admin/class-fg-drupal-to-wp-admin.php:408
+#: admin/class-fg-drupal-to-wp-admin.php:778
+#, php-format
+msgid "%d page"
+msgid_plural "%d pages"
+msgstr[0] "%d page"
+msgstr[1] "%d pages"
+
+#: admin/class-fg-drupal-to-wp-admin.php:409
+#, php-format
+msgid "%d media"
+msgid_plural "%d medias"
+msgstr[0] "%d média"
+msgstr[1] "%d médias"
+
+#: admin/class-fg-drupal-to-wp-admin.php:438
+msgid "Instructions"
+msgstr "Instructions"
+
+#: admin/class-fg-drupal-to-wp-admin.php:444
+msgid "Options"
+msgstr "Options"
+
+#: admin/class-fg-drupal-to-wp-admin.php:448
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class-fg-drupal-to-wp-admin.php:478
+msgid "PDO is required. Please enable it."
+msgstr "PDO est requis. Veuillez l'activer."
+
+#: admin/class-fg-drupal-to-wp-admin.php:487
+#: admin/class-fg-drupal-to-wp-admin.php:751
+msgid ""
+"Couldn't connect to the Drupal database. Please check your parameters. And "
+"be sure the WordPress server can access the Drupal database."
+msgstr ""
+"Impossible de se connecter à la base de données de Drupal. Merci de vérifier "
+"vos paramètres. Et soyez certains que le serveur WordPress ait accès à la "
+"base de données de Drupal."
+
+#: admin/class-fg-drupal-to-wp-admin.php:487
+#: admin/class-fg-drupal-to-wp-admin.php:751
+#, php-format
+msgid ""
+"Please read the <a href=\"%s\" target=\"_blank\">FAQ for the solution</a>."
+msgstr ""
+"Veuillez lire la <a href=\"%s\" target=\"_blank\">FAQ pour la solution</a>."
+
+#: admin/class-fg-drupal-to-wp-admin.php:515
+msgid "Error:"
+msgstr "Erreur :"
+
+#: admin/class-fg-drupal-to-wp-admin.php:744
+msgid "Connected with success to the Drupal database"
+msgstr "Connecté avec succès à la base de données Drupal"
+
+#: admin/class-fg-drupal-to-wp-admin.php:764
+msgid "Drupal data found:"
+msgstr "Données Drupal trouvées :"
+
+#: admin/class-fg-drupal-to-wp-admin.php:768
+#, php-format
+msgid "%d article"
+msgid_plural "%d articles"
+msgstr[0] "%d article"
+msgstr[1] "%d articles"
+
+#: admin/class-fg-drupal-to-wp-admin.php:773
+#, php-format
+msgid "%d story"
+msgid_plural "%d stories"
+msgstr[0] "%d article"
+msgstr[1] "%d articles"
+
+#: admin/class-fg-drupal-to-wp-admin.php:927
+#, php-format
+msgid "%d category imported"
+msgid_plural "%d categories imported"
+msgstr[0] "%d catégorie importée"
+msgstr[1] "%d catégories importées"
+
+#: admin/class-fg-drupal-to-wp-admin.php:929
+#, php-format
+msgid "%d tag imported"
+msgid_plural "%d tags imported"
+msgstr[0] "%d mot-clef importé"
+msgstr[1] "%d mots-clefs importés"
+
+#: admin/class-fg-drupal-to-wp-admin.php:945
+#, php-format
+msgid "%d article imported"
+msgid_plural "%d articles imported"
+msgstr[0] "%d article importé"
+msgstr[1] "%d articles importés"
+
+#: admin/class-fg-drupal-to-wp-admin.php:952
+#, php-format
+msgid "%d story imported"
+msgid_plural "%d stories imported"
+msgstr[0] "%d article importé"
+msgstr[1] "%d articles importés"
+
+#: admin/class-fg-drupal-to-wp-admin.php:958
+#, php-format
+msgid "%d page imported"
+msgid_plural "%d pages imported"
+msgstr[0] "%d page importée"
+msgstr[1] "%d pages importées"
+
+#: admin/class-fg-drupal-to-wp-admin.php:967
+#, php-format
+msgid "%d media imported"
+msgid_plural "%d medias imported"
+msgstr[0] "%d média importé"
+msgstr[1] "%d médias importés"
+
+#: admin/class-fg-drupal-to-wp-admin.php:987
+msgid "Don't forget to modify internal links."
+msgstr "N'oubliez pas de modifier les liens internes."
+
+#: admin/class-fg-drupal-to-wp-admin.php:1004
+msgid "The URL field is required to import the media."
+msgstr "Le champ URL est requis pour importer les médias."
+
+#: admin/class-fg-drupal-to-wp-admin.php:1086
+#: admin/class-fg-drupal-to-wp-admin.php:1323
+#, php-format
+msgid "Importing %s..."
+msgstr "Import des %s..."
+
+#: admin/class-fg-drupal-to-wp-admin.php:1413
+msgid ""
+"The import process is still running. Please wait before running it again."
+msgstr ""
+"Le process d’import est toujours en cours. Merci d’attendre avant de le "
+"relancer."
+
+#: admin/class-fg-drupal-to-wp-admin.php:1508
+#, php-format
+msgid "Node #%d:"
+msgstr "Node #%d:"
+
+#: admin/class-fg-drupal-to-wp-admin.php:1979
+#, php-format
+msgid "Unable to create directory %s"
+msgstr "Impossible de créer le répertoire %s"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:41
+#, php-format
+msgid ""
+"Your Drupal database contains %s. You need the <a href=\"%s\" target=\"_blank"
+"\">Premium version</a> to import them."
+msgstr ""
+"Votre base de données Drupal contient %s. Vous avez besoin de la <a href=\"%s"
+"\" target=\"_blank\">version Premium</a> pour les importer."
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:44
+#, php-format
+msgid ""
+"Your Drupal database contains %1$s. You need the <a href=\"%3$s\" target="
+"\"_blank\">%4$s</a> to import them."
+msgstr ""
+"Votre base de données Drupal contient %1$s. Vous avez besoin <a href=\"%3$s"
+"\" target=\"_blank\">%4$s</a> pour les importer."
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:47
+#, php-format
+msgid ""
+"Your Drupal database contains %1$s. You need the <a href=\"%2$s\" target="
+"\"_blank\">Premium version</a> and the <a href=\"%3$s\" target=\"_blank\">"
+"%4$s</a> to import them."
+msgstr ""
+"Votre base de données Drupal contient %1$s. Vous avez besoin de la <a href="
+"\"%2$s\" target=\"_blank\">version Premium</a> et <a href=\"%3$s\" target="
+"\"_blank\">%4$s</a> pour les importer."
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:54
+msgid "users"
+msgstr "des utilisateurs"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:61
+#: admin/class-fg-drupal-to-wp-modules-check.php:68
+msgid "comments"
+msgstr " des commentaires"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:75
+msgid "custom nodes"
+msgstr "des nœuds personnalisés"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:82
+#: admin/class-fg-drupal-to-wp-modules-check.php:89
+#: admin/class-fg-drupal-to-wp-modules-check.php:96
+msgid "custom taxonomies"
+msgstr "des taxonomies personnalisées"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:103
+msgid "URL alias"
+msgstr "des alias d'URL"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:110
+msgid "CCK data"
+msgstr "des données CCK"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:110
+msgid "CCK add-on"
+msgstr "du module CCK"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:117
+msgid "Location custom fields"
+msgstr "des champs lieux"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:117
+msgid "Location add-on"
+msgstr "du module Location"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:124
+msgid "meta tags"
+msgstr "des méta tags"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:124
+msgid "Metatag add-on"
+msgstr "du module Metatag"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:131
+msgid "Name custom fields"
+msgstr "des champs personnalisés Name"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:131
+msgid "Name add-on"
+msgstr "du module Name"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:138
+msgid "Addressfield custom fields"
+msgstr "des champs personnalisés Addressfield"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:138
+msgid "Address add-on"
+msgstr "du module Address"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:145
+msgid "Ubercart products"
+msgstr "des produits Ubercart"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:145
+msgid "Ubercart add-on"
+msgstr "du module Ubercart"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:152
+msgid "translations"
+msgstr "des traductions"
+
+#: admin/class-fg-drupal-to-wp-modules-check.php:152
+msgid "Internationalization add-on"
+msgstr "du module Internationalization"
+
+#: admin/partials/actions.php:3
+msgid "Save settings"
+msgstr "Enregistrer les paramètres"
+
+#: admin/partials/actions.php:4
+msgid "Start / Resume the import"
+msgstr "Démarrer / continuer l'import"
+
+#: admin/partials/actions.php:6
+msgid "Stop import"
+msgstr "Arrêter l'import"
+
+#: admin/partials/after-migration.php:3
+msgid "After the migration"
+msgstr "Après la migration"
+
+#: admin/partials/after-migration.php:6
+msgid "If you have links between articles, you need to modify internal links."
+msgstr ""
+"Si vous avez des liens entre articles, vous avez besoin de modifier les "
+"liens internes."
+
+#: admin/partials/after-migration.php:10
+msgid "Modify internal links"
+msgstr "Modifier les liens internes"
+
+#: admin/partials/behavior.php:2
+msgid "Behavior"
+msgstr "Comportement"
+
+#: admin/partials/behavior.php:5
+msgid "Import summary:"
+msgstr "Importer le résumé :"
+
+#: admin/partials/behavior.php:7
+msgid "The summary will be imported into the excerpt."
+msgstr "Le résumé sera importé dans l’extrait."
+
+#: admin/partials/behavior.php:7
+msgid "to the excerpt"
+msgstr "dans l'extrait"
+
+#: admin/partials/behavior.php:8
+msgid ""
+"The summary will be imported into the post content with a «read more» link."
+msgstr "Le résumé sera importé dans le contenu avec un lien « lire la suite »."
+
+#: admin/partials/behavior.php:8
+msgid "to the content"
+msgstr "dans le contenu de l'article"
+
+#: admin/partials/behavior.php:9
+msgid ""
+"The summary will be imported into both the excerpt and the post content."
+msgstr "Le résumé sera importé dans l’extrait et le contenu du message."
+
+#: admin/partials/behavior.php:9
+msgid "to both"
+msgstr "dans les deux"
+
+#: admin/partials/behavior.php:13
+msgid "Media:"
+msgstr "Médias :"
+
+#: admin/partials/behavior.php:14
+msgid "Skip media"
+msgstr "Ne pas importer les médias"
+
+#: admin/partials/behavior.php:17
+msgid "Set featured image from:"
+msgstr "Définir l’image à la une d’après :"
+
+#: admin/partials/behavior.php:19
+msgid "Use the image field in priority"
+msgstr "Utilisez le champ image en priorité"
+
+#: admin/partials/behavior.php:19
+msgid "image field"
+msgstr "le champ image"
+
+#: admin/partials/behavior.php:20
+msgid "Use the first image from the content"
+msgstr "Utiliser la première image du contenu"
+
+#: admin/partials/behavior.php:20
+msgid "first content image"
+msgstr "la première image du contenu"
+
+#: admin/partials/behavior.php:21
+msgid "Don't use featured images"
+msgstr "Ne pas utiliser les images à la une"
+
+#: admin/partials/behavior.php:21
+msgid "none"
+msgstr "aucune"
+
+#: admin/partials/behavior.php:23
+msgid "Import only the featured images. Don't import the other images"
+msgstr ""
+"Importer uniquement les images à la une. Ne pas importer les autres images"
+
+#: admin/partials/behavior.php:25
+msgid ""
+"Remove the first image from the content when it is used as the featured image"
+msgstr ""
+"Retirer la première image du contenu quand elle est utilisée en tant "
+"qu'image à la une"
+
+#: admin/partials/behavior.php:27
+msgid "Import external media"
+msgstr "Importer les médias externes"
+
+#: admin/partials/behavior.php:29
+msgid ""
+"Checked: download the media with their full path in order to import media "
+"with identical names."
+msgstr ""
+"Coché : télécharge les médias avec leur nom complet afin d'importer les "
+"médias comportant des noms identiques."
+
+#: admin/partials/behavior.php:29
+msgid "Import media with duplicate names"
+msgstr "Importer les médias avec des noms identiques"
+
+#: admin/partials/behavior.php:31
+msgid ""
+"Checked: download the media even if it has already been imported. Unchecked: "
+"Download only media which were not already imported."
+msgstr ""
+"Coché : télécharge les médias même s'ils ont déjà été importés. Décoché : "
+"télécharge uniquement les médias qui n'ont pas déjà été importés."
+
+#: admin/partials/behavior.php:31
+msgid ""
+"Force media import. Keep unchecked except if you had previously some media "
+"download issues."
+msgstr ""
+"Forcer l'import des médias. Laisser décoché sauf si vous avez auparavant "
+"rencontré des problèmes d'import de médias."
+
+#: admin/partials/behavior.php:33
+msgid "Timeout for each media:"
+msgstr "Timeout pour chaque média :"
+
+#: admin/partials/behavior.php:34
+msgid "seconds"
+msgstr "secondes"
+
+#: admin/partials/database-info.php:2
+msgid "WordPress database"
+msgstr "Base de données WordPress"
+
+#: admin/partials/empty-content.php:6
+msgid ""
+"If you want to restart the import from scratch, you must empty the WordPress "
+"content with the button hereafter."
+msgstr ""
+"Si vous souhaitez relancer l'import à partir de zéro, vous devez vider le "
+"contenu de WordPress avec le bouton ci-contre."
+
+#: admin/partials/empty-content.php:7
+msgid "Remove only new imported data"
+msgstr "Supprimer seulement les nouvelles données importées"
+
+#: admin/partials/empty-content.php:8
+msgid "Remove all WordPress content"
+msgstr "Supprimer tout le contenu de WordPress"
+
+#: admin/partials/empty-content.php:9
+msgid "Empty WordPress content"
+msgstr "Supprimer le contenu de WordPress"
+
+#: admin/partials/extra-features.php:2
+msgid "Do you need extra features?"
+msgstr "Vous avez besoin de fonctionnalités supplémentaires ?"
+
+#: admin/partials/extra-features.php:4
+msgid "comments migration"
+msgstr "migration des commentaires"
+
+#: admin/partials/extra-features.php:5
+msgid "authors migration"
+msgstr "migration des auteurs"
+
+#: admin/partials/extra-features.php:6
+msgid "users migration"
+msgstr "migration des utilisateurs"
+
+#: admin/partials/extra-features.php:7
+msgid "custom post types migration"
+msgstr "migration des custom post types"
+
+#: admin/partials/extra-features.php:8
+msgid "custom taxonomies migration"
+msgstr "migration des taxonomies personnalisées"
+
+#: admin/partials/extra-features.php:9
+msgid "custom fields migration"
+msgstr "migration des champs personnalisés"
+
+#: admin/partials/extra-features.php:10
+msgid "SEO: Drupal URLs redirects"
+msgstr "SEO : redirection des URLs Drupal"
+
+#: admin/partials/extra-features.php:11
+msgid "CCK custom content migration"
+msgstr "migration des données personnalisées CCK"
+
+#: admin/partials/extra-features.php:12
+msgid "meta tags migration"
+msgstr "migration des méta tags"
+
+#: admin/partials/extra-features.php:13
+msgid "location custom fields migration"
+msgstr "migration des champs lieux"
+
+#: admin/partials/extra-features.php:14
+msgid "name custom fields migration"
+msgstr "migration des champs de nom"
+
+#: admin/partials/extra-features.php:15
+msgid "address custom fields migration"
+msgstr "migration des champs d'adresse"
+
+#: admin/partials/extra-features.php:16
+msgid "multilingual migration"
+msgstr "migration multilingue"
+
+#: admin/partials/extra-features.php:21
+msgid "This feature needs an add-on in addition to the Premium version."
+msgstr ""
+"Cette fonctionnalité nécessite un module supplémentaire en plus de la "
+"version Premium."
+
+#: admin/partials/logger.php:3
+msgid "Log"
+msgstr "Log"
+
+#: admin/partials/logger.php:4
+msgid "Log auto-refresh"
+msgstr "Rafraîchissement automatique des logs"
+
+#: admin/partials/paypal-donate.php:1
+#, php-format
+msgid ""
+"If you found this plugin useful and it saved you many hours or days, please "
+"rate it on %s."
+msgstr ""
+"Si vous avez trouvé ce plug-in utile et qu'il vous a fait gagner plusieurs "
+"heures ou jours, merci de le noter sur %s."
+
+#: admin/partials/paypal-donate.php:1
+msgid "You can also make a donation using the button below."
+msgstr "Vous pouvez également faire un don en utilisant le bouton ci-dessous."
+
+#: admin/partials/settings.php:2
+msgid "Automatic removal:"
+msgstr "Suppression automatique :"
+
+#: admin/partials/settings.php:3
+msgid "Automatically remove all the WordPress content before each import"
+msgstr "Supprimer automatiquement le contenu de WordPress avant chaque import"
+
+#: admin/partials/settings.php:6
+msgid "Drupal web site parameters"
+msgstr "Paramètres du site web Drupal"
+
+#: admin/partials/settings.php:9
+msgid "URL of the live Drupal web site"
+msgstr "URL du site web Drupal"
+
+#: admin/partials/settings.php:11
+msgid ""
+"This field is used to pull the media off that site. It must contain the URL "
+"of the original site."
+msgstr ""
+"Ce champ est utilisé pour extraire les médias de ce site. Il doit contenir "
+"l’URL du site original."
+
+#: admin/partials/settings.php:15
+msgid "Drupal database parameters"
+msgstr "Paramètres de la base de données Drupal"
+
+#: admin/partials/settings.php:18
+msgid "Hostname"
+msgstr "Serveur"
+
+#: admin/partials/settings.php:22
+msgid "Port"
+msgstr "Port"
+
+#: admin/partials/settings.php:26
+msgid "Database"
+msgstr "Nom de la base"
+
+#: admin/partials/settings.php:30
+msgid "Username"
+msgstr "Identifiant"
+
+#: admin/partials/settings.php:34
+msgid "Password"
+msgstr "Mot de passe"
+
+#: admin/partials/settings.php:38
+msgid "Drupal Table Prefix"
+msgstr "Préfixe de table Drupal"
+
+#: admin/partials/settings.php:43
+msgid "Test the database connection"
+msgstr "Tester la connexion à la base de données"
+
+#: includes/class-fg-drupal-to-wp.php:199
+msgid "Import"
+msgstr "Importer"
+
+#~ msgid "Medias:"
+#~ msgstr "Médias :"
+
+#~ msgid "IMPORT COMPLETE"
+#~ msgstr "IMPORT TERMINÉ"
+
+#~ msgid ""
+#~ "This plugin will import articles, pages, images, categories and tags from "
+#~ "a Drupal database into WordPress.<br />Compatible with Drupal versions 6, "
+#~ "7 and 8."
+#~ msgstr ""
+#~ "Ce plugin va importer les articles, les pages, les images, les catégories "
+#~ "et les tags d’une base Drupal vers WordPress.<br>Compatible avec les "
+#~ "versions Drupal 6, 7 et 8."
+
+#~ msgid "Meta tags migration"
+#~ msgstr "migration des Méta tags"
+
+#~ msgid "Location custom fields migration"
+#~ msgstr "migration des champs lieux"
+
+#~ msgid ""
+#~ "All new imported posts or pages and their comments will be deleted from "
+#~ "WordPress."
+#~ msgstr ""
+#~ "Tous les nouveaux articles ou pages importés vont être supprimés de "
+#~ "WordPress."
+
+#~ msgid ""
+#~ "This plugin will import articles, pages, images, categories and tags from "
+#~ "a Drupal database into WordPress.<br />Compatible with Drupal versions 7 "
+#~ "and 8."
+#~ msgstr ""
+#~ "Ce plugin va importer les articles, les pages, les images, les catégories "
+#~ "et les tags d’une base Drupal vers WordPress.<br>Compatible avec les "
+#~ "versions Drupal 7 et 8."
+
+#~ msgid "Joomla (FG)"
+#~ msgstr "Joomla (FG)"
+
+#~ msgid ""
+#~ "Import categories, articles and medias (images, attachments) from a "
+#~ "Joomla database into WordPress."
+#~ msgstr ""
+#~ "Importer les catégories, articles et médias (images, fichiers attachés) "
+#~ "depuis une base Joomla vers WordPress."
+
+#~ msgid "Import Joomla (FG)"
+#~ msgstr "Import Joomla (FG)"
+
+#~ msgid ""
+#~ "This plugin will import sections, categories, posts, medias (images, "
+#~ "attachments) and web links from a Joomla database into WordPress.<br /"
+#~ ">Compatible with Joomla versions 1.5 to 3.6."
+#~ msgstr ""
+#~ "Ce plugin va importer les sections, les catégories, les articles, les "
+#~ "médias (images, pièces jointes) et les liens Web à partir d'une base de "
+#~ "données Joomla vers WordPress. <br /> Compatible avec les versions Joomla "
+#~ "1.5 à 3.6."
+
+#~ msgid ""
+#~ "Couldn't connect to the Joomla database. Please check your parameters. "
+#~ "And be sure the WordPress server can access the Joomla database."
+#~ msgstr ""
+#~ "Impossible de se connecter à la base de données de Joomla. Merci de "
+#~ "vérifier vos paramètres. Et soyez certains que le serveur WordPress ait "
+#~ "accès à la base de données de Joomla."
+
+#~ msgid "Connected with success to the Joomla database"
+#~ msgstr "Connecté avec succès à la base de données Joomla"
+
+#~ msgid ""
+#~ "Your version of Joomla (probably 1.0) is not supported by this plugin. "
+#~ "Please consider upgrading to the <a href=\"%s\" target=\"_blank\">Premium "
+#~ "version</a>."
+#~ msgstr ""
+#~ "Votre version de Joomla (probablement 1.0) n'est pas prise en charge par "
+#~ "ce plugin. Veuillez envisager de passer à la <a href=\"%s\" target="
+#~ "\"_blank\">version Premium</a>."
+
+#~ msgid "Joomla data found:"
+#~ msgstr "Données Joomla trouvées :"
+
+#~ msgid "%d section"
+#~ msgid_plural "%d sections"
+#~ msgstr[0] "%d section"
+#~ msgstr[1] "%d sections"
+
+#~ msgid "%d web link"
+#~ msgid_plural "%d web links"
+#~ msgstr[0] "%d lien"
+#~ msgstr[1] "%d liens"
+
+#~ msgid "%d post imported"
+#~ msgid_plural "%d posts imported"
+#~ msgstr[0] "%d article importé"
+#~ msgstr[1] "%d articles importés"
+
+#~ msgid "Importing categories..."
+#~ msgstr "Import des catégories..."
+
+#~ msgid "Importing posts..."
+#~ msgstr "Import des articles..."
+
+#~ msgid "Article #%d:"
+#~ msgstr "Article #%d :"
+
+#~ msgid "FTP connection successful"
+#~ msgstr "Connexion FTP réussie"
+
+#~ msgid "FTP connection failed"
+#~ msgstr "Connexion FTP échouée"
+
+#~ msgid "FTP connection failed:"
+#~ msgstr "Connexion FTP échouée :"
+
+#~ msgid ""
+#~ "Your Joomla database contains %s. You need the <a href=\"%s\" target="
+#~ "\"_blank\">Premium version</a> to import them."
+#~ msgstr ""
+#~ "Votre base de données Joomla contient %s. Vous avez besoin de la <a href="
+#~ "\"%s\" target=\"_blank\">version Premium</a> pour les importer."
+
+#~ msgid ""
+#~ "Your Joomla database contains %1$s. You need the <a href=\"%3$s\" target="
+#~ "\"_blank\">%4$s</a> to import them."
+#~ msgstr ""
+#~ "Votre base de données Joomla contient %1$s. Vous avez besoin <a href="
+#~ "\"%3$s\" target=\"_blank\">%4$s</a> pour les importer."
+
+#~ msgid ""
+#~ "Your Joomla database contains %1$s. You need the <a href=\"%2$s\" target="
+#~ "\"_blank\">Premium version</a> and the <a href=\"%3$s\" target=\"_blank\">"
+#~ "%4$s</a> to import them."
+#~ msgstr ""
+#~ "Votre base de données Joomla contient %1$s. Vous avez besoin de la <a "
+#~ "href=\"%2$s\" target=\"_blank\">version Premium</a> et <a href=\"%3$s\" "
+#~ "target=\"_blank\">%4$s</a> pour les importer."
+
+#~ msgid "several users"
+#~ msgstr "plusieurs utilisateurs"
+
+#~ msgid "some tags"
+#~ msgstr "des mots-clefs"
+
+#~ msgid "some K2 items"
+#~ msgstr "des éléments K2"
+
+#~ msgid "K2 add-on"
+#~ msgstr "du module K2"
+
+#~ msgid "some Flexicontent items"
+#~ msgstr "des éléments Flexicontent"
+
+#~ msgid "Flexicontent add-on"
+#~ msgstr "du module Flexicontent"
+
+#~ msgid "some EasyBlog posts"
+#~ msgstr "des articles EasyBlog"
+
+#~ msgid "EasyBlog add-on"
+#~ msgstr "du module EasyBlog"
+
+#~ msgid "some Joom!Fish translations"
+#~ msgstr "des traductions Joom!Fish"
+
+#~ msgid "Joom!Fish add-on"
+#~ msgstr "du module Joom!Fish"
+
+#~ msgid "some Zoo items"
+#~ msgstr "des éléments Zoo"
+
+#~ msgid "Zoo add-on"
+#~ msgstr "du module Zoo"
+
+#~ msgid "some sh404sef redirections"
+#~ msgstr "des redirections sh404sef"
+
+#~ msgid "sh404sef add-on"
+#~ msgstr "du module sh404sef"
+
+#~ msgid "some JoomSEF redirections"
+#~ msgstr "des redirections JoomSEF"
+
+#~ msgid "JoomSEF add-on"
+#~ msgstr "du module JoomSEF"
+
+#~ msgid "some OpenSEF redirections"
+#~ msgstr "des redirections OpenSEF"
+
+#~ msgid "OpenSEF add-on"
+#~ msgstr "du module OpenSEF"
+
+#~ msgid "some JComments comments"
+#~ msgstr "des commentaires JComments"
+
+#~ msgid "JComments add-on"
+#~ msgstr "du module JComments"
+
+#~ msgid "some JomComment comments"
+#~ msgstr "des commentaires JomComment"
+
+#~ msgid "JomComment add-on"
+#~ msgstr "du module JomComment"
+
+#~ msgid "a Kunena forum"
+#~ msgstr "un forum Kunena"
+
+#~ msgid "Kunena add-on"
+#~ msgstr "du module Kunena"
+
+#~ msgid "some attachments"
+#~ msgstr "des fichiers joints"
+
+#~ msgid "Attachments add-on"
+#~ msgstr "du module Attachments"
+
+#~ msgid "some Joomlatags tags"
+#~ msgstr "des mots-clefs Joomlatags"
+
+#~ msgid "Joomlatags add-on"
+#~ msgstr "du module Joomlatags"
+
+#~ msgid "some JoomGallery galleries"
+#~ msgstr "des galeries JoomGallery"
+
+#~ msgid "JoomGallery add-on"
+#~ msgstr "du module JoomGallery"
+
+#~ msgid "some PhocaGallery galleries"
+#~ msgstr "des images PhocaGallery"
+
+#~ msgid "PhocaGallery add-on"
+#~ msgstr "du module Phocagallery"
+
+#~ msgid "some JEvents events"
+#~ msgstr "des évènements JEvents"
+
+#~ msgid "JEvents add-on"
+#~ msgstr "du module JEvents"
+
+#~ msgid "some contacts"
+#~ msgstr "des contacts"
+
+#~ msgid "Contact Manager add-on"
+#~ msgstr "du module Contact Manager"
+
+#~ msgid "some Docman documents"
+#~ msgstr "des documents Docman"
+
+#~ msgid "Docman add-on"
+#~ msgstr "du module Docman"
+
+#~ msgid "a Virtuemart e-commerce solution"
+#~ msgstr "une boutique en ligne Virtuemart"
+
+#~ msgid "Virtuemart add-on"
+#~ msgstr "du module Virtuemart"
+
+#~ msgid "some JReviews data"
+#~ msgstr "des données JReviews"
+
+#~ msgid "JReviews add-on"
+#~ msgstr "du module JReviews"
+
+#~ msgid "a Mosets Tree directory"
+#~ msgstr "un annuaire Mosets Tree"
+
+#~ msgid "Mosets Tree add-on"
+#~ msgstr "du module Mosets Tree"
+
+#~ msgid "user groups"
+#~ msgstr "des groupes d'utilisateurs"
+
+#~ msgid "User Groups add-on"
+#~ msgstr "du module User Groups"
+
+#~ msgid "several languages"
+#~ msgstr "plusieurs langues"
+
+#~ msgid "WPML add-on"
+#~ msgstr "du module WPML"
+
+#~ msgid "%d links category imported"
+#~ msgid_plural "%d links categories imported"
+#~ msgstr[0] "%d catégorie de liens importée"
+#~ msgstr[1] "%d catégories de liens importées"
+
+#~ msgid "Importing web links..."
+#~ msgstr "Import des liens web..."
+
+#~ msgid "%d web link imported"
+#~ msgid_plural "%d web links imported"
+#~ msgstr[0] "%d lien web importé"
+#~ msgstr[1] "%d liens web importés"
+
+#~ msgid "%d link"
+#~ msgid_plural "%d links"
+#~ msgstr[0] "%d lien"
+#~ msgstr[1] "%d liens"
+
+#~ msgid "Import introtext:"
+#~ msgstr "Importer le texte d'introduction :"
+
+#~ msgid ""
+#~ "The text before the «Read more» split will be imported into the excerpt."
+#~ msgstr ""
+#~ "Le texte situé avant la marque «Lire la suite» sera importé dans "
+#~ "l'extrait."
+
+#~ msgid ""
+#~ "The text before the «Read more» split will be imported into the post "
+#~ "content with a «read more» link."
+#~ msgstr ""
+#~ "Le texte situé avant la marque «Lire la suite» sera importé dans le "
+#~ "contenu de l'article avec un lien «Lire la suite»."
+
+#~ msgid ""
+#~ "The text before the «Read more» split will be imported into both the "
+#~ "excerpt and the post content."
+#~ msgstr ""
+#~ "Le texte situé avant la marque «Lire la suite» sera importé dans "
+#~ "l'extrait et dans le contenu de l'article."
+
+#~ msgid "Archived posts:"
+#~ msgstr "Articles archivés :"
+
+#~ msgid "Do not import archived posts"
+#~ msgstr "Ne pas importer les articles archivés"
+
+#~ msgid "Not imported"
+#~ msgstr "Non importés"
+
+#~ msgid "Import archived posts as drafts"
+#~ msgstr "Importer les articles archivés comme brouillons"
+
+#~ msgid "Import as drafts"
+#~ msgstr "Importer comme brouillons"
+
+#~ msgid "Import archived posts as published posts"
+#~ msgstr "Importer les articles archivés comme articles publiés"
+
+#~ msgid "Import as published posts"
+#~ msgstr "Importer comme articles publiés"
+
+#~ msgid "Featured image:"
+#~ msgstr "Image à la une :"
+
+#~ msgid "Use the fulltext image (Joomla 2.5+) in priority"
+#~ msgstr "Utiliser l'image de l'article complet (Joomla 2.5+) en priorité"
+
+#~ msgid "fulltext image"
+#~ msgstr "image de l'article complet"
+
+#~ msgid "Use the intro image (Joomla 2.5+) in priority"
+#~ msgstr "Utiliser l'image d'intro (Joomla 2.5+) en priorité"
+
+#~ msgid "intro image"
+#~ msgstr "image d'intro"
+
+#~ msgid "Meta keywords:"
+#~ msgstr "Mots-clefs :"
+
+#~ msgid "Import meta keywords as tags"
+#~ msgstr "Importer les meta keywords en tant que mots-clefs"
+
+#~ msgid "Create pages:"
+#~ msgstr "Créer des pages :"
+
+#~ msgid "Import as pages instead of blog posts (without categories)"
+#~ msgstr "Importer en tant que pages au lieu d'articles (sans les catégories)"
+
+#~ msgid "authors and all users migration"
+#~ msgstr "migration des auteurs et de tous les utilisateurs"
+
+#~ msgid "menus migration"
+#~ msgstr "migration des menus"
+
+#~ msgid "HTML modules migration"
+#~ msgstr "migration des modules HTML"
+
+#~ msgid "SEO: keeps Joomla IDs or redirects standard Joomla URLs"
+#~ msgstr ""
+#~ "SEO : garde les IDs de Joomla ou redirige les URLs standards de Joomla"
+
+#~ msgid "SEO: Keeps meta description and meta keywords"
+#~ msgstr "SEO : garde les meta description et meta keywords"
+
+#~ msgid "SEO: Keeps sh404sef, JoomSEF and OpenSEF URLs"
+#~ msgstr "SEO : garde les URLs sh404sef, JoomSEF et OpenSEF"
+
+#~ msgid "Joomla views counts migration"
+#~ msgstr "migration des compteurs de vues de Joomla"
+
+#~ msgid "Joomla 1.0 compatible"
+#~ msgstr "compatible Joomla 1.0"
+
+#~ msgid "Joomla 2.5+ featured images"
+#~ msgstr "images d'intro de Joomla 2.5+"
+
+#~ msgid "Joomla 3.1+ tags"
+#~ msgstr "mots-clefs de Joomla 3.1+"
+
+#~ msgid "Joomla contacts"
+#~ msgstr "contacts Joomla"
+
+#~ msgid "Mambo 4.5 and 4.6 compatible"
+#~ msgstr "compatible Mambo 4.5 et 4.6"
+
+#~ msgid "K2 content"
+#~ msgstr "contenu K2"
+
+#~ msgid "EasyBlog content"
+#~ msgstr "contenu EasyBlog"
+
+#~ msgid "Kunena forum to bbPress"
+#~ msgstr "forum Kunena vers bbPress"
+
+#~ msgid "Flexicontent content"
+#~ msgstr "contenu Flexicontent"
+
+#~ msgid "Zoo content"
+#~ msgstr "contenu Zoo"
+
+#~ msgid "Jcomments and Jomcomment comments"
+#~ msgstr "commentaires Jcomments et Jomcomment"
+
+#~ msgid "Joomlatags tags"
+#~ msgstr "mots-clefs Joomlatags"
+
+#~ msgid "Attachments"
+#~ msgstr "fichiers joints Attachments"
+
+#~ msgid "Rokbox images"
+#~ msgstr "images Rokbox"
+
+#~ msgid "JoomGallery images"
+#~ msgstr "images JoomGallery"
+
+#~ msgid "Phocagallery images"
+#~ msgstr "images Phocagallery"
+
+#~ msgid "Joom!Fish translations to WPML"
+#~ msgstr "traductions Joom!Fish vers WPML"
+
+#~ msgid "JEvents events"
+#~ msgstr "évènements JEvents"
+
+#~ msgid "Docman documents"
+#~ msgstr "documents Docman"
+
+#~ msgid "Virtuemart e-commerce"
+#~ msgstr "boutique en ligne Virtuemart"
+
+#~ msgid "JReviews reviews"
+#~ msgstr "revues JReviews"
+
+#~ msgid "Mosets Tree directory"
+#~ msgstr "annuaire Mosets Tree"
+
+#~ msgid "Multilingual content to WPML"
+#~ msgstr "contenu multilingue vers WPML"
+
+#~ msgid "Simple Image Gallery & Simple Image Gallery Pro"
+#~ msgstr "Simple Image Gallery & Simple Image Gallery Pro"
+
+#~ msgid "RSGallery images"
+#~ msgstr "images RSGallery"
+
+#~ msgid "Joomla FTP parameters"
+#~ msgstr "Paramètres FTP de Joomla"
+
+#~ msgid "FTP host"
+#~ msgstr "Serveur FTP"
+
+#~ msgid "FTP port"
+#~ msgstr "Port FTP"
+
+#~ msgid "FTP login"
+#~ msgstr "Utilisateur FTP"
+
+#~ msgid "FTP password"
+#~ msgstr "Mot de passe FTP"
+
+#~ msgid "FTPS"
+#~ msgstr "FTPS"
+
+#~ msgid "Use FTPS"
+#~ msgstr "Utiliser FTPS"
+
+#~ msgid "FTP base directory"
+#~ msgstr "Répertoire de base FTP"
+
+#~ msgid "Test the FTP connection"
+#~ msgstr "Tester la connexion FTP"
+
+#~ msgid "Joomla web site parameters"
+#~ msgstr "Paramètres du site Web Joomla"
+
+#~ msgid "URL of the live Joomla web site"
+#~ msgstr "URL du site web Joomla de production"
+
+#~ msgid "Joomla database parameters"
+#~ msgstr "Paramètres de la base Joomla"
+
+#~ msgid "Joomla Table Prefix"
+#~ msgstr "Préfixe des table Joomla"
+
+#~ msgid ""
+#~ "Your version of Joomla (probably 1.0) is not supported by this plugin. "
+#~ "Please consider upgrading to the <a href=\"http://www.fredericgilles.net/"
+#~ "fg-joomla-to-wordpress/\" target=\"_blank\">Premium version</a>."
+#~ msgstr ""
+#~ "Votre version de Joomla (probablement la 1.0) n'est pas supportée par ce "
+#~ "plugin. Veuillez considérer le passage en <a href=\"http://www."
+#~ "fredericgilles.net/fg-joomla-to-wordpress/\" target=\"_blank\">version "
+#~ "Premium</a>."
+
+#~ msgid ""
+#~ "This plugin will import sections, categories, posts, medias (images, "
+#~ "attachments) and web links from a Joomla database into WordPress.<br /"
+#~ ">Compatible with Joomla versions 1.5, 1.6, 1.7, 2.5, 3.0, 3.1, 3.2, 3.3 "
+#~ "and 3.4."
+#~ msgstr ""
+#~ "Cette extension va importer les sections, les catégories, les articles, "
+#~ "les médias (images, fichiers attachés) et les liens web depuis une base "
+#~ "Joomla vers WordPress.<br />Compatible avec Joomla versions 1.5, 1.6, "
+#~ "1.7, 2.5, 3.0, 3.1, 3.2, 3.3 et 3.4."
+
+#~ msgid ""
+#~ "If you found this plugin useful and it saved you many hours or days, "
+#~ "please rate it on <a href=\"https://wordpress.org/support/view/plugin-"
+#~ "reviews/fg-joomla-to-wordpress\">FG Joomla to WordPress</a>. You can also "
+#~ "make a donation using the button below."
+#~ msgstr ""
+#~ "Si vous avez trouvé ce plugin utile et qu'il vous a fait gagner plusieurs "
+#~ "heures ou jours, merci de le noter sur <a href=\"https://wordpress.org/"
+#~ "support/view/plugin-reviews/fg-joomla-to-wordpress\">FG Joomla WordPress</"
+#~ "a>. Vous pouvez également faire un don via le bouton ci-dessous."
+
+#~ msgid "Remove only new imported posts"
+#~ msgstr "Supprimer seulement les nouveaux articles importés"
+
+#~ msgid "Article #%d: "
+#~ msgstr "Article #%d : "
+
+#~ msgid "Import first image:"
+#~ msgstr "Importer la première image :"
+
+#~ msgid "The first image will be kept in the post content"
+#~ msgstr "La première image sera conservée dans le contenu"
+
+#~ msgid "as is"
+#~ msgstr "tel quelle"
+
+#~ msgid ""
+#~ "The first image will be removed from the post content and imported as the "
+#~ "featured image only"
+#~ msgstr ""
+#~ "La première image sera supprimée du contenu et importée en image à la une"
+
+#~ msgid "as featured only"
+#~ msgstr "en tant qu'image à la une seulement"
+
+#~ msgid ""
+#~ "The first image will be kept in the post content and imported as the "
+#~ "featured image"
+#~ msgstr ""
+#~ "La première image sera conservée dans le contenu et importée en image à "
+#~ "la une"
+
+#~ msgid "as is and as featured"
+#~ msgstr "tel quelle et en tant qu'image à la une"
+
+#~ msgid "%d elements to import"
+#~ msgstr "%d éléments à importer"
+
+#~ msgid "%d category processed"
+#~ msgid_plural "%d categories processed"
+#~ msgstr[0] "%d catégorie traitée"
+#~ msgstr[1] "%d catégories traitées"
+
+#~ msgid "%d post processed"
+#~ msgid_plural "%d posts processed"
+#~ msgstr[0] "%d article traité"
+#~ msgstr[1] "%d articles traités"
+
+#~ msgid "%d web link processed"
+#~ msgid_plural "%d web links processed"
+#~ msgstr[0] "%d lien web traité"
+#~ msgstr[1] "%d liens web traités"
+
+#~ msgid "%d web links imported"
+#~ msgstr "%d liens web importés"
+
+#~ msgid "%d categories imported"
+#~ msgstr "%d catégories importées"
+
+#~ msgid "%d posts imported"
+#~ msgstr "%d articles importés"
+
+#~ msgid "%d user"
+#~ msgid_plural "%d users"
+#~ msgstr[0] "%d utilisateur"
+#~ msgstr[1] "%d utilisateurs"
+
+#~ msgid "Import content from Joomla to WordPress"
+#~ msgstr "Importer le contenu de Joomla vers WordPress"
+
+#~ msgid "Prefixes removed from categories"
+#~ msgstr "Préfixes de catégories supprimés"
+
+#~ msgid ""
+#~ "During the migration, prefixes have been added to the categories slugs to "
+#~ "avoid categories duplicates. This button will remove these prefixes which "
+#~ "are useless after the migration."
+#~ msgstr ""
+#~ "Pendant la migration, des préfixes ont été ajoutés aux URLs des "
+#~ "catégories pour éviter les doublons. Ce bouton supprimera ces préfixes "
+#~ "qui sont inutiles après la migration."
+
+#~ msgid "Remove the prefixes from the categories"
+#~ msgstr "Supprimer les préfixes des catégories"
+
+#~ msgid ""
+#~ "For any issue, please read the <a href=\"http://wordpress.org/plugins/fg-"
+#~ "joomla-to-wordpress/faq/\" target=\"_blank\">FAQ</a> first."
+#~ msgstr ""
+#~ "En cas de problème, veuillez d'abord vous référez à la <a href=\"http://"
+#~ "wordpress.org/plugins/fg-joomla-to-wordpress/faq/\" target=\"_blank"
+#~ "\">FAQ</a>."
+
+#~ msgid ""
+#~ "<a href=\"http://wordpress.org/plugins/fg-joomla-to-wordpress/faq/\" "
+#~ "target=\"_blank\">FAQ</a>"
+#~ msgstr ""
+#~ "<a href=\"http://wordpress.org/plugins/fg-joomla-to-wordpress/faq/\" "
+#~ "target=\"_blank\">FAQ</a>"
+
+#~ msgid "Test the connection"
+#~ msgstr "Tester la connexion"
+
+#~ msgid ""
+#~ "If you found this plugin useful and it saved you many hours or days, "
+#~ "please rate it on <a href=\"http://wordpress.org/extend/plugins/fg-joomla-"
+#~ "to-wordpress/\">FG Joomla to WordPress</a>. You can also make a donation "
+#~ "using the button below."
+#~ msgstr ""
+#~ "Si vous avez trouvé cette extension utile et qu'elle vous a fait gagner "
+#~ "de nombreuses heures ou jours, merci de voter pour elle sur <a href="
+#~ "\"http://wordpress.org/extend/plugins/fg-joomla-to-wordpress/\">FG Joomla "
+#~ "to WordPress</a>. Vous pouvez aussi faire une donation en utilisant le "
+#~ "bouton ci-dessous."
+
+#~ msgid "some languages"
+#~ msgstr "des lang"
+
+#~ msgid "languages"
+#~ msgstr "langages"
+
+#~ msgid ""
+#~ "Your Joomla database contains %s. You need the <a href=\"%s\" target="
+#~ "\"_blank\">Premium version</a> and the <a href=\"%s\" target=\"_blank\">"
+#~ "%s</a> to import them."
+#~ msgstr ""
+#~ "Votre base de données Joomla contient %s. Vous avez besoin de la <a href="
+#~ "\"%s\" target=\"_blank\">version Premium</a> et <a href=\"%s\" target="
+#~ "\"_blank\">%s</a> pour les importer."
+
+#~ msgid "Multingual content to WPML"
+#~ msgstr "Contenu multilingue vers WPML"
+
+#~ msgid "URL (beginning with http://)"
+#~ msgstr "URL (commençant par http://)"
+
+#~ msgid ""
+#~ "Please note that some of these features need an add-on in addition to the "
+#~ "Premium version."
+#~ msgstr ""
+#~ "Veuillez noter que certaines de ces fonctionnalités nécessitent un module "
+#~ "supplémentaire en plus de la version Premium."
+
+#~ msgid ""
+#~ "If you want to rerun the import, you must empty the WordPress content "
+#~ "with the button hereafter."
+#~ msgstr ""
+#~ "Si vous souhaitez relancer l'import, vous devez vider le contenu de "
+#~ "WordPress avec le bouton ci-contre."
+
+#~ msgid ""
+#~ "This plugin will import sections, categories, posts, medias (images, "
+#~ "attachments) and web links from a Joomla database into WordPress.<br /"
+#~ ">Compatible with Joomla versions 1.5, 1.6, 1.7, 2.5, 3.0, 3.1, 3.2 and "
+#~ "3.3."
+#~ msgstr ""
+#~ "Cette extension va importer les sections, les catégories, les articles, "
+#~ "les médias (images, fichiers attachés) et les liens web depuis une base "
+#~ "Joomla vers WordPress.<br />Compatible avec Joomla versions 1.5, 1.6, "
+#~ "1.7, 2.5, 3.0, 3.1, 3.2 et 3.3."
+
+#~ msgid "Contact Directory contacts"
+#~ msgstr "contacts de Contact Directory"
+
+#~ msgid "some Contact Directory contacts"
+#~ msgstr "des contacts de Contact Directory"
+
+#~ msgid "Contact Directory add-on"
+#~ msgstr "module Contact Directory"
+
+#~ msgid "des fichiers joints"
+#~ msgstr "des fichiers joints"
+
+#~ msgid "Joomla version"
+#~ msgstr "Version de Joomla"
+
+#~ msgid "SEO: Keeps JoomSEF URLs"
+#~ msgstr "SEO : garde les URLs JoomSEF"
+
+#~ msgid "SEO: Keeps OpenSEF URLs"
+#~ msgstr "SEO : garde les URLs OpenSEF"
+
+#~ msgid "Posts with a \"read more\" split:"
+#~ msgstr "Articles avec «Lire la suite» :"
+
+#~ msgid "Remove all posts, categories, tags, medias, comments and pages"
+#~ msgstr ""
+#~ "Supprimer tous les articles, catégories, mots-clefs, médias, commentaires "
+#~ "et pages"
+
+#~ msgid ""
+#~ "All posts, categories, tags, medias, comments and pages will be deleted "
+#~ "from WordPress."
+#~ msgstr ""
+#~ "Tous les articles, catégories, mots-clefs, médias, commentaires et pages "
+#~ "vont être supprimés de WordPress."
+
+#~ msgid "SEO"
+#~ msgstr "SEO"
+
+#~ msgid "Categories, tags, posts, comments, pages and medias deleted"
+#~ msgstr ""
+#~ "Catégories, mots-clefs, articles, commentaires, pages et médias supprimés"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "%d image"
+#~ msgid_plural "%d images"
+#~ msgstr[0] "%d image"
+#~ msgstr[1] "%d images"
+
+#~ msgid "Images:"
+#~ msgstr "Images :"
+
+#, fuzzy
+#~ msgid "FG Joomla to WordPress"
+#~ msgstr "Importer le contenu de Joomla vers WordPress"
+
+#, fuzzy
+#~ msgid ""
+#~ "A plugin to migrate categories, posts and images from Joomla to WordPress"
+#~ msgstr ""
+#~ "Cette extension va importer les sections, les catégories, les articles et "
+#~ "les images depuis une base Joomla vers WordPress."
